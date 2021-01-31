@@ -35,7 +35,7 @@ REGISTER_EMAIL="--register-unsafely-without-email"   # Email used for registrati
                                                      # use the '--register-unsafely-without-email' option here.
                                                      # REGISTER_EMAIL="-m youremailhere@provider.com"
 
-# SSH vars (like locations where the ssl certs should be copied)
+# SSL vars (like locations where the ssl certs should be copied)
 SSL_PATH="/etc/ssl"
 SSL_CERT="nginx-cert.pem"
 SSL_KEY="nginx-key.pem"
