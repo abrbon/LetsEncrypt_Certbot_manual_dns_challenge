@@ -17,7 +17,7 @@ Make sure you run all commands with 'root' privileges.<br><br>
 - Install the Certbot package on your server. On my iocage jail the command is: <code>pkg install py37-certbot</code>
 - Create following directory for these scripts: <code>/usr/local/certbot_files/</code>
 - Change to the directory you just created: <code>cd /usr/local/certbot_files</code>
-- Clone this git repo with following command:
+- Clone this git repo with following command:<br>
     <code>git clone https://github.com/abrbon/LetsEncrypt_DuckDNS_script_toolset.git .</code><br>
     Pay attention to the '.' at the end of the line!
 - Make sure all scripts have execution rights (chmod u+x *.sh)
