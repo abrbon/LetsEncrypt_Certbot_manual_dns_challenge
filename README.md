@@ -19,7 +19,7 @@ Make sure you run all commands with 'root' privileges.<br><br>
 - Change to the directory you just created: <code>cd /usr/local/certbot_files</code>
 - Clone this git repo with following command:<br>
     <code>git clone https://github.com/abrbon/LetsEncrypt_DuckDNS_script_toolset.git .</code><br>
-    Pay attention to the '.' at the end of the line!
+    Pay attention to the . at the end of the line!
 - Make sure all scripts have execution rights (chmod u+x *.sh)
 - Now run the <code>certbot_firstrun_script.sh</code> script to get started.
 
