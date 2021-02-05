@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# This script is used for setting some global variables to be used in other scripts
+# This script is used for setting some global variables to be used in other scripts.
 # You can include this script in other script using the 'source' option, 
 # e.g.: source duckdns_config_vars.sh
 #
