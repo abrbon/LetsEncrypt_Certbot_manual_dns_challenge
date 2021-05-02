@@ -6,7 +6,7 @@
 set -e
 
 # Set global vars.
-source certbot_config_vars.sh
+source /usr/local/certbot_files/certbot_config_vars.sh
 
 echo url="https://www.duckdns.org/update?domains=$DOMAIN&token=$TOKEN&txt=$CERTBOT_VALIDATION&verbose=true" | curl -o $LOGDIR/update-curl.log -K -
 

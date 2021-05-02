@@ -5,7 +5,7 @@
 set -e 
 
 # Set global vars.
-source certbot_config_vars.sh
+source /usr/local/certbot_files/certbot_config_vars.sh
 
 # Set some local vars if necessary.
 # SOME_LOCAL_VAR=""
